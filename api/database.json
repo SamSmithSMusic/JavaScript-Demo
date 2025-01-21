@@ -1,0 +1,274 @@
+[
+	{
+		"SKU": "1001",
+		"Title": "Organic Bananas",
+		"ShortDescription": "Fresh organic bananas by the bunch.",
+		"Category": "Grocery",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 1.99
+	},
+	{
+		"SKU": "1002",
+		"Title": "Whole Milk, 1 Gallon",
+		"ShortDescription": "Rich and creamy whole milk, 1 gallon.",
+		"Category": "Grocery",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 3.49
+	},
+	{
+		"SKU": "2001",
+		"Title": "Car Battery, 12V",
+		"ShortDescription": "Reliable 12V car battery for most vehicles.",
+		"Category": "Automotive",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 89.99
+	},
+	{
+		"SKU": "2002",
+		"Title": "Windshield Wipers, Pack of 2",
+		"ShortDescription": "Durable windshield wipers for all-weather use.",
+		"Category": "Automotive",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 15.99
+	},
+	{
+		"SKU": "3001",
+		"Title": "Ibuprofen 200mg, 100ct",
+		"ShortDescription": "Pain relief tablets, 200mg each.",
+		"Category": "Pharmacy",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 8.99
+	},
+	{
+		"SKU": "3002",
+		"Title": "Cough Syrup, 12oz",
+		"ShortDescription": "Fast relief cough syrup for cold symptoms.",
+		"Category": "Pharmacy",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 6.49
+	},
+	{
+		"SKU": "4001",
+		"Title": "Smartphone, 128GB",
+		"ShortDescription": "Latest model smartphone with 128GB storage.",
+		"Category": "Technology",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 699.99
+	},
+	{
+		"SKU": "4002",
+		"Title": "Wireless Earbuds",
+		"ShortDescription": "Bluetooth wireless earbuds with noise cancellation.",
+		"Category": "Technology",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 129.99
+	},
+	{
+		"SKU": "5001",
+		"Title": "Vacuum Cleaner",
+		"ShortDescription": "High-power vacuum cleaner for home use.",
+		"Category": "Home",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 149.99
+	},
+	{
+		"SKU": "5002",
+		"Title": "LED Light Bulbs, Pack of 4",
+		"ShortDescription": "Energy-efficient LED light bulbs.",
+		"Category": "Home",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 12.99
+	},
+	{
+		"SKU": "1003",
+		"Title": "Organic Apples",
+		"ShortDescription": "Crisp organic apples by the pound.",
+		"Category": "Grocery",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 2.49
+	},
+	{
+		"SKU": "1004",
+		"Title": "Orange Juice, 64oz",
+		"ShortDescription": "100% pure orange juice, 64oz bottle.",
+		"Category": "Grocery",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 4.99
+	},
+	{
+		"SKU": "2003",
+		"Title": "Motor Oil, 5W-30",
+		"ShortDescription": "Premium motor oil for engine protection.",
+		"Category": "Automotive",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 24.99
+	},
+	{
+		"SKU": "2004",
+		"Title": "Tire Pressure Gauge",
+		"ShortDescription": "Accurate tire pressure gauge for vehicles.",
+		"Category": "Automotive",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 9.99
+	},
+	{
+		"SKU": "1005",
+		"Title": "Whole Wheat Bread",
+		"ShortDescription": "Fresh whole wheat bread, 1 loaf.",
+		"Category": "Grocery",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 2.99
+	},
+	{
+		"SKU": "1006",
+		"Title": "Cheddar Cheese, 16oz",
+		"ShortDescription": "Sharp cheddar cheese, 16oz block.",
+		"Category": "Grocery",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 5.99
+	},
+	{
+		"SKU": "2005",
+		"Title": "Car Wax, 16oz",
+		"ShortDescription": "High gloss car wax for a shiny finish.",
+		"Category": "Automotive",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 12.49
+	},
+	{
+		"SKU": "2006",
+		"Title": "Spark Plug Set",
+		"ShortDescription": "Set of 4 high-performance spark plugs.",
+		"Category": "Automotive",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 19.99
+	},
+	{
+		"SKU": "3003",
+		"Title": "Multivitamin, 150ct",
+		"ShortDescription": "Daily essential multivitamins for adults.",
+		"Category": "Pharmacy",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 14.99
+	},
+	{
+		"SKU": "3004",
+		"Title": "Allergy Relief Tablets, 50ct",
+		"ShortDescription": "Fast-acting allergy relief tablets.",
+		"Category": "Pharmacy",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 9.49
+	},
+	{
+		"SKU": "4003",
+		"Title": "Laptop, 15.6-inch",
+		"ShortDescription": "Powerful laptop with 256GB SSD.",
+		"Category": "Technology",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 899.99
+	},
+	{
+		"SKU": "4004",
+		"Title": "Smartwatch",
+		"ShortDescription": "Feature-packed smartwatch with fitness tracking.",
+		"Category": "Technology",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 199.99
+	},
+	{
+		"SKU": "5003",
+		"Title": "Blender, 500W",
+		"ShortDescription": "High-speed blender for smoothies and more.",
+		"Category": "Home",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 49.99
+	},
+	{
+		"SKU": "5004",
+		"Title": "Ceramic Cookware Set",
+		"ShortDescription": "Non-stick ceramic cookware set of 10 pieces.",
+		"Category": "Home",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 129.99
+	},
+	{
+		"SKU": "1007",
+		"Title": "Organic Peanut Butter",
+		"ShortDescription": "Creamy organic peanut butter, 16oz jar.",
+		"Category": "Grocery",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 6.49
+	},
+	{
+		"SKU": "1008",
+		"Title": "Almond Milk, 1L",
+		"ShortDescription": "Unsweetened almond milk, 1 liter carton.",
+		"Category": "Grocery",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 3.29
+	},
+	{
+		"SKU": "2007",
+		"Title": "Engine Oil, 5W-30",
+		"ShortDescription": "Synthetic engine oil, 5-quart bottle.",
+		"Category": "Automotive",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 24.99
+	},
+	{
+		"SKU": "2008",
+		"Title": "Car Floor Mats",
+		"ShortDescription": "Set of 4 all-weather car floor mats.",
+		"Category": "Automotive",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 34.99
+	},
+	{
+		"SKU": "3005",
+		"Title": "Vitamin C Gummies, 120ct",
+		"ShortDescription": "Delicious vitamin C gummies for immune support.",
+		"Category": "Pharmacy",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 11.99
+	},
+	{
+		"SKU": "3006",
+		"Title": "Pain Relief Gel, 8oz",
+		"ShortDescription": "Fast-acting pain relief gel for sore muscles.",
+		"Category": "Pharmacy",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 7.49
+	},
+	{
+		"SKU": "4005",
+		"Title": "Wireless Earbuds",
+		"ShortDescription": "Noise-cancelling wireless earbuds with charging case.",
+		"Category": "Technology",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 79.99
+	},
+	{
+		"SKU": "4006",
+		"Title": "Tablet, 10-inch",
+		"ShortDescription": "High-resolution tablet with 128GB storage.",
+		"Category": "Technology",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 299.99
+	},
+	{
+		"SKU": "5005",
+		"Title": "Vacuum Cleaner, Cordless",
+		"ShortDescription": "Lightweight cordless vacuum cleaner with strong suction.",
+		"Category": "Home",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 159.99
+	},
+	{
+		"SKU": "5006",
+		"Title": "Electric Kettle, 1.7L",
+		"ShortDescription": "Stainless steel electric kettle with auto shut-off.",
+		"Category": "Home",
+		"PictureURL": "https://example.com/item.jpg",
+		"Price": 39.99
+	}
+]
