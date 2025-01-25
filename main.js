@@ -1,4 +1,4 @@
-import {Database, Item} from '/api/api.js';
+import {Database} from '/api/api.js';
 
 // Variable Declaration
 const skuInput = document.querySelector("header label input");
