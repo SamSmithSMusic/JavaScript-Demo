@@ -1,19 +1,3 @@
-// export async function main() {
-//     const preObjects = await loadItems();
-//     const database = await buildDatabase(preObjects); 
-
-//     // preObjects.forEach(item => {
-        
-//     //     var tempitem = new Item(item.SKU,item.Title,item.ShortDescription,item.Category,item.PictureURL,item.Price);
-//     //     database.push(tempitem);
-
-//     // });
-//     console.log(database);
-
-// }
-// main();
-
-
 export class Item {
     constructor(sku, name, desc, category, picture, price) {
         this.sku = sku,
@@ -28,6 +12,7 @@ export class Item {
 }
 
 export class Database {
+
     constructor (path) {
         this.path = path;
     }
@@ -36,6 +21,7 @@ export class Database {
         this._root = this.buildDatabase(await this.loadItems());
     }
 
+    //Fetch items from json
     async loadItems() {
         const jsonReply = await fetch(this.path);
         // console.log(jsonReply);
@@ -43,6 +29,7 @@ export class Database {
         return items;
     }
 
+    //turn items into Items
     buildDatabase(objects) {
         var sortedObjects = objects.sort((a,b) => a.SKU - b.SKU);
     
@@ -50,6 +37,7 @@ export class Database {
             return new Item(item.SKU,item.Title,item.ShortDescription,item.Category,item.PictureURL,item.Price)
         })
     
+        //build BST from items for searching
         function buildTree(start,end) {
             if (start > end) {
                 return null
@@ -66,16 +54,33 @@ export class Database {
         return buildTree(0, preNodes.length - 1);
     }
 
-    searchSKU(sku, database) {
+    //return sku array to main for input selection
+    getSKUs(database) {
+        let skus = [];
+        
+        function traversal(database) {
+            if (database === null) return;
+            
+            traversal(database.left);  
+            skus.push(database.sku);  
+            traversal(database.right); 
+        }
+        
+        traversal(database);
+        return skus;
+    }
+
+    //searches for a specific item from a given sku
+    searchSKU(sku, database ) {
         if (database == null) {return null}
-        if (sku == database.SKU) {
+        if (sku == database.sku) {
             return database;
         }
         if (sku < database.sku) {
-            searchSKU(sku, database.left)
+            return this.searchSKU(sku, database.left)
         }
         else {
-            searchSKU(sku, database.right)
+            return this.searchSKU(sku, database.right)
         }
     }
 }

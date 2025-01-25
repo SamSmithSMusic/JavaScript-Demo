@@ -5,8 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="module" src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>Please enter the sku of your product: <br><label><input list="skus" type="text" maxlength="4" placeholder="Type or Select"></label><br><button>Query</button>
+        <datalist id="skus">
+
+        </datalist>
+    </header>
+
+    <section>
+        <div></div>
+        <h1 class="title"></h1>
+        <h2 class="category"></h2>
+        <h3 class="sku"></h3>
+        <img class="pic">
+        <p class="desc"></p>
+        <h4 class="price"></h4>
+    </section>
 </body>
 </html>
