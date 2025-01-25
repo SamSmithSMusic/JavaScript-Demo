@@ -10,8 +10,6 @@ No libraries were used beyond those included, but I did use ES6 modules to make 
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
 - [W3Schools JS tutorial](https://www.w3schools.com/js)
 - [W3Schools CSS tutorial](https://www.w3schools.com/css/)
 
