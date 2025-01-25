@@ -1,32 +1,22 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+Howdy! This is an excersize in JavaScript I made to help familiarize myself with the language. I was origonally going to use the walmart API, but it proved to difficult for my purposes. I learned how to manipulate the DOM from JS and how to recursively call functions to operate a binary tree. It wasn't entirely neccesary at this scale, but great practice for the future!
 
-{Provide a description of the software that you wrote to demonstrate the JavaScript language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/ml1cWYOaXWQ)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+No librarys were used beyond those included, but I did use ES6 modules to make a more realistic API experince with my homemade attempt!
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [W3Schools JS tutorial](https://www.w3schools.com/js)
+- [W3Schools CSS tutorial](https://www.w3schools.com/css/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Enhance Features
+- Build up Frontend
+- Connect to Walmart API
