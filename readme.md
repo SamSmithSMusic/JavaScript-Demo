@@ -1,12 +1,12 @@
 # Overview
 
-Howdy! This is an excersize in JavaScript I made to help familiarize myself with the language. I was origonally going to use the walmart API, but it proved to difficult for my purposes. I learned how to manipulate the DOM from JS and how to recursively call functions to operate a binary tree. It wasn't entirely neccesary at this scale, but great practice for the future!
+Howdy! This is an exercise in JavaScript I made to help familiarize myself with the language. I was originally going to use the Walmart API, but it proved too difficult for my purposes. I learned how to manipulate the DOM from JS and how to recursively call functions to operate a binary tree. It wasn't entirely necessary at this scale, but great practice for the future!
 
 [Software Demo Video](https://youtu.be/ml1cWYOaXWQ)
 
 # Development Environment
 
-No librarys were used beyond those included, but I did use ES6 modules to make a more realistic API experince with my homemade attempt!
+No libraries were used beyond those included, but I did use ES6 modules to make a more realistic API experience with my homemade attempt!
 
 # Useful Websites
 
